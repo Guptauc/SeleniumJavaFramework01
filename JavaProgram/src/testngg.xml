@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+	
+	<parameter name="username" value="gupta"/>
+	<parameter name="password" value="ujjwal"/>
+		<classes>
+			<class name="Pkg1st.ParameterTestNG" />
+		</classes>
+	</test>
+</suite>
